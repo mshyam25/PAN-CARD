@@ -94,9 +94,9 @@ td {
     margin-left: 150px;
 }
 
-input {
-    background-color: cornsilk;
-    border: solid 1px rosybrown;
+.file {
+    border: none;
+    background-color: burlywood;
 }
 
 .t2 {
