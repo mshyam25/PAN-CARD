@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    max-width: 100%;
 }
 
 #content {
@@ -7,7 +8,7 @@ body {
     border: solid 1px black;
     margin: 50px 110px;
     background-color: burlywood;
-    max-width: 1020px;
+    width: max-content;
 }
 
 p {
@@ -55,6 +56,10 @@ tr {
     font-weight: normal;
 }
 
+.fatname {
+    margin-left: 10px;
+}
+
 td .underline {
     text-decoration: underline;
 }
@@ -66,4 +71,38 @@ td .underline {
 .table1 .bd {
     border-right: none;
     border-left: none;
+}
+
+td {
+    font-weight: bold;
+    font-size: small;
+}
+
+.shrink {
+    margin-left: 60px;
+}
+
+.alter {
+    margin-left: 270px;
+}
+
+.alterm {
+    margin-left: 230px;
+}
+
+.alterz {
+    margin-left: 150px;
+}
+
+input {
+    background-color: cornsilk;
+    border: solid 1px rosybrown;
+}
+
+.t2 {
+    padding: 0;
+}
+
+tr:hover {
+    background-color: slategray;
 }

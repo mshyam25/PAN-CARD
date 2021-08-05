@@ -22,11 +22,10 @@
         <table class="table1">
             <tr>
                 <td></td>
-                <td class="bd"><span class="asterisk">*</span>Whether Citizen of India </td>
+                <td class="bd" colspan="4"><span class="asterisk">*</span>Whether Citizen of India
+                    <span class="shrink"><label for="citiy">Yes</label> <input type="radio" id="citiy" name="citizen">
+                    <label for="citin">No</label> <input type="radio" id="citin" name="citizen"></span></td>
 
-
-                <td class="bd"><label for="citiy">Yes</label> <input type="radio" id="citiy" name="citizen">
-                    <label for="citin">No</label> <input type="radio" id="citin" name="citizen"></td>
             </tr>
             <tr>
                 <td></td>
@@ -40,26 +39,19 @@
             </tr>
             <tr>
                 <td></td>
-                <td class="bd">Title</td>
-
-                <td colspan="3" class="bd"><label for="mr">Shri/Mr</label> <input type="radio" id="mr" name="title">
+                <td class="bd" colspan="4">Title <span class="shrink"><label for="mr">Shri/Mr</label> <input type="radio" id="mr" name="title">
                     <label for="mrs">Smt/Mrs</label> <input type="radio" id="mrs" name="title">
 
-                    <label for="ms">Kumari/Ms</label> <input type="radio" id="ms" name="title"></td>
+                    <label for="ms">Kumari/Ms</label> <input type="radio" id="ms" name="title"></span></td>
             </tr>
             <tr>
                 <td></td>
-                <td class="bd">
-                    <label for="lname">Last Name/Surname</label><br>
-                    <input type="text" id="lname">
-                </td>
-                <td class="bd">
-                    <label for="fname">First Name</label><br>
-                    <input type="text" id="fname">
-                </td>
-                <td class="bd">
-                    <label for="mname">Middle Name</label><br>
-                    <input type="text" id="mname">
+                <td class="bd" colspan="5">
+                    <label for="lname">Last Name/Surname</label> <span class="alter"><label for="fname">First Name</label></span>
+                    <span class="alter"><label for="mname">Middle Name</label></span><br>
+
+                    <input type="text" id="lname" size="10"> <span class="alter"><input type="text" id="fname" size="10"></span>
+                    <span class="alterm"><input type="text" id="mname" size="10"></span>
                 </td>
             </tr>
             <tr>
@@ -70,7 +62,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td colspan="4"><input type="text" size="50"></td>
+                <td colspan="4"><input type="text" size="30"></td>
             </tr>
             <tr>
                 <td></td>
@@ -80,7 +72,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td colspan="2">Whether mother is single parent and you wish to apply PAN by furnishing the name of your <br> mother only
+                <td>Whether mother is single parent and you wish to apply PAN by furnishing the name of your <br> mother only
                 </td>
                 <td colspan="2"><label for="y">Yes</label><input type="radio" id="y" name="mpan">
                     <label for="n">No</label><input type="radio" id="n" name="mpan"></td>
@@ -92,17 +84,12 @@
             </tr>
             <tr>
                 <td></td>
-                <td class="bd">
-                    <label for="lname">Last Name/Surname</label><br>
-                    <input type="text" id="lname">
-                </td>
-                <td class="bd">
-                    <label for="fname">First Name</label><br>
-                    <input type="text" id="fname">
-                </td>
-                <td class="bd">
-                    <label for="mname">Middle Name</label><br>
-                    <input type="text" id="mname">
+                <td class="bd" colspan="5">
+                    <label for="lname">Last Name/Surname</label> <span class="alter"><label for="fname">First Name</label></span>
+                    <span class="alter"><label for="mname">Middle Name</label></span><br>
+
+                    <input type="text" id="lname" size="10"> <span class="alter"><input type="text" id="fname" size="10"></span>
+                    <span class="alterm"><input type="text" id="mname" size="10"></span>
                 </td>
             </tr>
             <tr>
@@ -111,26 +98,22 @@
             </tr>
             <tr>
                 <td></td>
-                <td class="bd">
-                    <label for="lname">Last Name/Surname</label><br>
-                    <input type="text" id="lname">
-                </td>
-                <td class="bd">
-                    <label for="fname">First Name</label><br>
-                    <input type="text" id="fname">
-                </td>
-                <td class="bd">
-                    <label for="mname">Middle Name</label><br>
-                    <input type="text" id="mname">
+                <td class="bd" colspan="5">
+                    <label for="lname">Last Name/Surname</label> <span class="alter"><label for="fname">First Name</label></span>
+                    <span class="alter"><label for="mname">Middle Name</label></span><br>
+
+                    <input type="text" id="lname" size="10"> <span class="alter"><input type="text" id="fname" size="10"></span>
+                    <span class="alterm"><input type="text" id="mname" size="10"></span>
                 </td>
             </tr>
             <tr>
                 <td></td>
-                <td colspan="2"><span class="asterisk">*</span>4.Select Parent's name which is to be printed on card
+                <td><span class="asterisk">*</span>4.Select Parent's name which is to be printed on card
                     <br>
                     <span class="blue">(In case no option is provided then PAN
                 card will be issued with father's name)
-            </span></td>
+            </span> </td>
+
                 <td colspan="2"><label for="fathername">Father's Name</label><input type="radio" id="fathername" name="panname">
                     <label for="mothername">Mother's Name</label><input type="radio" id="mothername" name="panname"></td>
             </tr>
@@ -256,13 +239,14 @@
                 <td>
                     <span class="asterisk">*</span> 11. Telephone No. <br> (Country code is compulsory)
                 </td>
-                <td colspan="3">
+                <td colspan="3" class="t2">
                     <table class="table2">
                         <tr>
                             <td colspan="2">Country Code (ISD Code) </td>
                         </tr>
                         <tr>
-                            <td colspan="2"><select name="countrycode" id=""><option value="">...Please Select...</option></select></td>
+                            <td colspan="2"><select name="countrycode" id=""><option value="">...Please Select...</option>
+                            <option value="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore deserunt essedaassf</option></select></td>
                         </tr>
                         <tr>
                             <td><input type="radio" id="mob" name="mobnbr"> <label for="mob">Mobile No.</label></td>
@@ -423,12 +407,13 @@
             </tr>
             <tr>
                 <td><input type="radio" id="dsc"><label for="dsc">DSC</label>
-                    <select name="dsc" id="dsc"><option value="">...Please Select...</option></select> <span class="redunderline">
+                    <select name="dsc" id="dsc"><option value="">...Please Select...</option>
+                    </select> <span class="redunderline">
                 Guidelines for DSC user </span></td>
             </tr>
             <tr>
                 <td>Upload Photo</td>
-                <td><input type="file" name="photo"></td>
+                <td><input type="file" name="photo" class="alterz"></td>
 
                 <td> Upload Signature</td>
 
@@ -436,7 +421,7 @@
             </tr>
             <tr>
                 <td>Upload Document</td>
-                <td><input type="file" name="doc"></td>
+                <td><input type="file" name="doc" class="alterz"></td>
                 <td></td>
                 <td></td>
                 <td>OR</td>
@@ -446,19 +431,19 @@
             </tr>
             <tr>
                 <td>ALREADY UPLOADED PHOTO : </td>
-                <td><input type="text"></td>
+                <td><input type="text" class="alterz"></td>
             </tr>
             <tr>
                 <td>ALREADY UPLOADED SIGNATURE : </td>
-                <td><input type="text"></td>
+                <td><input type="text" class="alterz"></td>
             </tr>
             <tr>
                 <td>ALREADY UPLOADED DOCUMENTS : </td>
-                <td><textarea name="docs" id="docs" cols="30" rows="5"></textarea></td>
+                <td><textarea name="docs" id="docs" cols="30" rows="5" class="alterz"></textarea></td>
             </tr>
             <tr>
                 <td></td>
-                <td class="submit"><input type="Submit"></td>
+                <td class="submit"><input type="Submit" class="alterz"></td>
             </tr>
 
 
